@@ -1,0 +1,312 @@
+/*Reset de estilos*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+}
+
+/*Exercicio 1*
+div{
+    width: 500px;
+    height: 300px;
+    background-color: red;
+    color: black;
+}
+
+
+.div2{
+    margin: 0 auto;
+    color: inherit;
+}
+.div3{
+    color: initial;
+}
+
+/*Exercicio 2*
+input[required]{
+    background-color: yellow;
+}
+
+button[disabled]{
+    opacity: 0.8;
+}
+
+select[data-type=primary]{
+    border: 2px solid blue;
+}
+*/
+
+/*Exercicio 3*
+header{
+    background-color: pink;
+    opacity: 0.5;
+    width: 100%;
+    height: 200px;
+    position: fixed;
+}
+button{
+    position: absolute;
+    bottom:50px;
+    right: 50px;
+}
+div{
+    position: sticky;
+}
+*/
+
+/*Exercicio 4
+section{
+    width: 100%;
+    height: 700px;
+    background-image: linear-gradient(to right, rgba(0, 0, 255,0.5), rgba(255, 255, 0,0)), url("../image/imagem.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+*/
+
+/*Exercicio 5
+div{
+    background-color: rgb(200,200,200);
+}
+.box1{
+    text-align: justify;
+}
+.box2{
+    text-align: center;
+}
+*/
+
+/*Exercicio 6
+.lista{
+    width: 200px;
+    margin-left: 20px;
+}
+.lista >li:hover{
+    background-color: green;
+}
+li:first-child{
+    color: orange;
+}
+li:last-child{
+    border: 2px solid gray;
+}
+li:nth-child(odd){
+    background-color: blue;
+}
+*/
+
+/*Exercicio 7
+form{
+    margin: 30px auto;
+    width: 96%;
+    max-width: 600px;
+    text-align: center;
+}
+
+fieldset{
+    padding:20px 40px;
+    border: 2px solid rgb(77, 144, 182);
+    border-radius: 6px;
+    background-color: white;
+}
+
+legend{
+    text-align: left;
+    font-size: 22px;
+    color: rgb(120,120,120);
+}
+
+input[type=text]{
+    margin-top: 20px;
+    width: 70%;
+    height: 40px;
+    padding: 10px 12px;
+    display: inline-block;
+    border: 2.5px solid rgb(77, 144, 182);
+    border-radius: 10px;
+    color: rgb(100,100,100);
+}
+
+input[type=text]:focus{
+    outline: 0;
+    border: 2.5px solid blue;
+    background-color: rgba(77, 144, 182,0.2);
+}
+
+select{
+    margin-top: 20px;
+    width: 50%;
+    height: 40px;
+    text-align: center;
+    border: 2.5px solid  rgb(77, 144, 182);
+    border-radius: 10px;
+    color: rgb(100,100,100);
+}
+
+select:focus{
+    outline: 0;
+    border: 2.5px solid blue;
+    background-color: rgba(77, 144, 182,0.2);
+}
+
+textarea{
+    resize: none;
+    margin-top: 20px;
+    width: 70%;
+    height: 80px;
+    border: 2.5px solid rgb(77, 144, 182);
+    border-radius: 10px;
+    padding: 10px 12px;
+}
+
+textarea:focus{
+    outline: 0;
+    border: 2.5px solid blue;
+    background-color: rgba(77, 144, 182,0.2);
+}
+
+input[type=submit]{
+    margin-top: 20px;
+    width: 20%;
+    height: 40px;
+    background-color: rgba(77, 144, 182,0.2);
+    color: rgb(120,120,120);
+    border: 2.3px solid rgb(77, 144, 182);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+    background-color: rgba(77, 144, 182,0.4);
+}
+
+input[type=submit]:focus{
+    outline: 0;
+    border: 2.5px solid blue;
+    background-color: rgba(77, 144, 182,0.4);
+}
+    */
+
+    /*exercicio 8
+form{
+    width: 96%;
+    max-width: 500px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+fieldset{
+    padding: 20px 40px;
+    border: 4px dotted rgb(216, 97, 97);
+    border-radius: 20px;
+}
+
+legend{
+    text-align: left;
+    font-size: 20px;
+    font-variant: small-caps;
+    font-weight: bold;
+    color:rgb(99, 99, 99);
+}
+
+h2{
+    margin-top: 10px;
+    color: rgb(99, 99, 99);
+}
+
+.input{
+    margin-top: 10px;
+    text-align: left;
+    display: inline-block;
+}
+
+.input span{
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+input[type=checkbox]{
+    display: none;
+}
+
+.checkbox-label{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-image: url("../image/checkbox_unchecked.PNG");
+    background-size: cover;
+}
+
+input[type=checkbox]:checked + .checkbox-label{
+    background-image: url("../image/checkbox_checked.PNG");
+}
+
+input[type=radio]{
+    display: none;
+}
+
+.radio-label{
+    display: inline-block;
+    width: 30px;
+    height: 15px;
+    background-image: url("../image/radio_unchecked.PNG");
+    background-size: cover;
+}
+
+input[type=radio]:checked + .radio-label{
+    background-image: url("../image/radio_checked.PNG");
+}
+
+input[type=file]{
+    display: none;
+}
+
+.arquivo{
+    display: inline-block;
+    margin-top: 10px;
+    text-align: center;
+    background-color: rgba(216, 97, 97,0.5);
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.arquivo:hover{
+    background-color: rgba(216, 97, 97,0.6);
+}
+*/
+
+/*Exercicio 9
+h1{
+    font-family: "Open Sans";
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+p{
+    font-family: "Roboto";
+    font-weight: 800;
+    line-height: 100px;
+}
+*/
+
+/*
+button[data-action="comprar"]{
+    margin: 50px;
+    width: 200px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    border: 5px solid blue;
+    border-radius: 30px;
+}
+img[data-descricao="Produto X"]:hover{
+    opacity: 0.5;
+}
+*/
